@@ -1,7 +1,7 @@
 @mixin base {
-
+    height: 24px;
 }
 
-.page-content {
+&__icon {
     @include base;
 }

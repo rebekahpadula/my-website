@@ -1,8 +1,9 @@
 @mixin base {
     text-decoration: none;
     color: #333;
+    padding: 12px 24px;
 }
 
-&__toggle-icon {
+&__link {
     @include base;
 }

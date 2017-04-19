@@ -1,17 +1,12 @@
 @mixin base {    
-    display: none;
-    flex-basis: 60%;
 
-    @media screen and (min-width: 768px) {
-        display: block;
-        flex-basis: 20%;
-    }
 }
 
 .primary-nav {
     @include base;
 
     @import 'heading';
-    @import 'toggle-icon';
     @import 'list';
+    @import 'item';
+    @import 'link';
 }
