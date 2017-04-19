@@ -1,11 +1,11 @@
 @mixin base {
-    padding: 0 40px;
+    padding: 20px 40px;
     // background-image: url('../../../assets/band-photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
     @media screen and (min-width: 768px) {
-        padding: 0 100px;
+        padding: 20px 80px;
     }
 }
 

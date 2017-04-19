@@ -1,5 +1,13 @@
 @mixin base {
+    // align-self: 
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 36px 0;
 
+    @media screen and (min-width: 768px) {
+        padding: 0;
+    }
 }
 
 &__content {
