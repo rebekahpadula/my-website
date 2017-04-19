@@ -1,0 +1,7 @@
+@mixin base {
+    flex-basis: 80%;
+}
+
+.page-content {
+    @include base;
+}

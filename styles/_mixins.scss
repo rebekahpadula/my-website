@@ -1,0 +1,15 @@
+@mixin visuallyHidden() {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+@mixin containContent {
+    margin-left: calc(0px - (100vw - 100%) / 2);
+    margin-right: calc(0px - (100vw - 100%) / 2);
+    padding-left: calc((100vw - 100%) / 2);
+    padding-right: calc((100vw - 100%) / 2);
+}

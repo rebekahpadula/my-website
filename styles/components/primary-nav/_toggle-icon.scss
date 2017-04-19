@@ -1,0 +1,8 @@
+@mixin base {
+    text-decoration: none;
+    color: #333;
+}
+
+&__toggle-icon {
+    @include base;
+}

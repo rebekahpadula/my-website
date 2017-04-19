@@ -1,3 +1,11 @@
+@import 'mixins';
+
+@import 'components/page-wrapper/page-wrapper';
+@import 'components/primary-nav/primary-nav';
+@import 'components/page-content/page-content';
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +13,11 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    color: #333;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }

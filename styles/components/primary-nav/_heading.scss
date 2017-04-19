@@ -1,0 +1,7 @@
+@mixin base {
+    @include visuallyHidden;
+}
+
+&__heading {
+    @include base;
+}
