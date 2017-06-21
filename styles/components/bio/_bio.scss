@@ -1,0 +1,9 @@
+@mixin base {
+
+}
+
+.bio {
+    @include base;
+
+    @import 'heading';
+}

@@ -1,8 +1,0 @@
-@mixin base {
-    text-decoration: none;
-    color: #333;
-}
-
-.logo-link {
-    @include base;
-}

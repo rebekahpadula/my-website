@@ -1,7 +1,7 @@
 @mixin base {
-    height: 24px;
+    max-width: 200px;
 }
 
-&__icon {
+&__logo {
     @include base;
 }

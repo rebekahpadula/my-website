@@ -1,24 +1,9 @@
 @mixin base {
     list-style: none;
-    display: none;
-    text-align: center;
-
-    &[data-expand-content="true"] {
-        display: block;
-
-        &::before {
-            content: '';
-            display: block;
-            border-bottom: 1px solid #ccc;
-            width: 100%;
-            margin-bottom: 12px;
-            
-            @include containContent;
-        }
-    }
 
     @media screen and (min-width: 768px) {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 }
 

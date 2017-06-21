@@ -1,0 +1,7 @@
+@mixin base {
+    width: 45px;
+}
+
+&__icon {
+    @include base;
+}

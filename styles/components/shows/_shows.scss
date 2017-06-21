@@ -1,0 +1,13 @@
+@mixin base {
+
+}
+
+.shows {
+    @include base;
+
+    @import 'date';
+    @import 'heading';
+    @import 'item';
+    @import 'list';
+    @import 'local';
+}

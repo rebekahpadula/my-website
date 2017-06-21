@@ -1,7 +1,16 @@
 @mixin base {
+    color: $white;
     text-decoration: none;
-    color: #333;
-    padding: 12px 24px;
+    display: block;
+    padding: 10px;
+    // margin: 10px;
+    text-align: center;
+    transition: color 0.2s;
+    font-size: 20px;
+
+    &:hover {
+        color: $yellow;
+    }
 }
 
 &__link {

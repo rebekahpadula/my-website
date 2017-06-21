@@ -1,0 +1,14 @@
+@mixin base {
+    font-variant: small-caps;
+
+    &::after {
+        content: '';
+        border-bottom: 1px solid $yellow;
+        width: 100%;
+        display: block;
+    }
+}
+
+&__heading {
+    @include base;
+}

@@ -1,12 +1,9 @@
 @mixin base {
-    padding: 20px 40px;
-    // background-image: url('../../../assets/band-photo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    @media screen and (min-width: 768px) {
-        padding: 20px 80px;
-    }
+    max-width: 1000px; // change this to something real when you get it working
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-wrapper {

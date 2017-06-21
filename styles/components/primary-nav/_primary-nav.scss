@@ -1,12 +1,19 @@
-@mixin base {    
+@mixin base {
+    background-color: $black;
+    padding: 10px;
 
+    @include escape-container;
 }
 
 .primary-nav {
     @include base;
 
+    @import 'content-controls';
+    @import 'content-control';
     @import 'heading';
-    @import 'list';
     @import 'item';
     @import 'link';
+    @import 'list';
+    @import 'logo';
+    @import 'icon';
 }
