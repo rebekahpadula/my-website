@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Band name</title>
+    <title>Title</title>
     <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="styles/site.min.css">
 </head>
@@ -10,36 +10,47 @@
 
     <div class="page-wrapper">
 
-        <header class="page-header" role="banner">
-            <h1 class="page-header__heading">Something Here</h1>
-        </header>
-
         <nav class="primary-nav" role="navigation" aria-label="Primary Navigation">
             <h1 class="primary-nav__heading">Primary Navigation</h1>
-            <!--<div class="primary-nav__content-controls">
-                <a href="#" class="primary-nav__content-control"><img class="primary-nav__icon" src="assets/menu-button.svg" alt="expand main navigation"/></a>
-            </div>-->
             <ul class="primary-nav__list" data-expand-content="false">
                 <!--<li class="primary-nav__item"><a class="primary-nav__link"><img class="primary-nav__logo" src="assets/band-photo.jpg"/></a></li>-->
-                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">Menu Item 1</a></li>
-                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">Menu Item 2</a></li>
-                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">Menu Item 3</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">about</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">shows</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="" aria-label="">contact</a></li>
             </ul>
         </nav>
+        
+        <div class="panel panel-1">
+            <div class="panel__inner">
+                <header class="page-header">
+                    <h1 class="page-header__heading"><span class="beginning">Hello, </span><span class="middle">we are</span><div class="end">Under The Sun</div></h1>
+                </header>
+            </div>
+        </div>
 
-        <div class="page-content">
-            <div class="card">
+        <div class="panel panel-2">
+            <div class="panel__inner">
                 <section class="bio">
-                    <h1 class="bio__heading">Biography</h1>
+                    <h1 class="bio__heading">biography</h1>
                     <p>Under The Sun is a cover band from Columbia, SC. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dignissimos inventore, vel sint tempore optio blanditiis illo omnis itaque dolore. Quam possimus optio expedita nobis non officia velit! Delectus, sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis esse eaque, rem quam repellat consectetur officia ratione voluptates, reprehenderit consequuntur fuga ab, iusto omnis excepturi. Cumque quas, fugiat ducimus facere.</p>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate molestiae, eos excepturi. Nostrum debitis distinctio eligendi laudantium omnis, sapiente laboriosam quidem voluptatibus officiis cupiditate, deleniti blanditiis. Iure, odit, eos.</p>
                 </section>
+                <section class="gallery">
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                    <img class="gallery__image" src="assets/band-photo.jpg"/>
+                </section>
             </div>
+        </div>
 
-            <div class="card">
+        <div class="panel panel-3">
+            <div class="panel__inner">
                 <section class="shows">
-                    <h1 class="shows__heading">Upcoming Shows</h1>
+                    <h1 class="shows__heading">upcoming shows</h1>
                     <ul class="shows__list">
                         <li class="shows__item"><h2 class="shows__date">Wednesday June 21st</h2><p class="shows__local">Wild Wings Harbison</p></li>
                         <li class="shows__item"><h2 class="shows__date">Wednesday June 21st</h2><p class="shows__local">Wild Wings Harbison</p></li>
@@ -50,10 +61,16 @@
             </div>
         </div>
 
+        <div class="panel panel-4">
+            <div class="panel__inner">
+                <section class="contact">
+                    <!-- STUFF -->
+                </section>
 
 
 
-
+            </div>
+        </div>
 
 
 

@@ -1,5 +1,6 @@
-@mixin base {
-
+@mixin base {   
+    flex-basis: 50%;
+    margin-right: 35px;
 }
 
 .bio {

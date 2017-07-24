@@ -1,0 +1,12 @@
+@mixin base {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery {
+    @include base;
+
+    @import 'image';
+}

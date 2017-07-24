@@ -1,0 +1,39 @@
+@mixin base {
+    min-height: 95vh;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    @include base;
+
+    @import 'inner';
+}
+
+.panel-1 {
+    background-image: url('../../assets/header-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+}
+
+.panel-2 {
+    background-color: #fefdfc;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(192, 36, 37), rgb(240, 203, 53))
+}
+
+.panel-2 .panel__inner {
+    display: flex;
+}
+
+.panel-3{
+    background-color: #fefdfc;
+    // background: linear-gradient(to bottom right, rgb(192, 36, 37), #4916b6);
+}
+
+.panel-4 {
+    background-color: #fefdfc;
+}

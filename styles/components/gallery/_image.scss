@@ -1,0 +1,8 @@
+@mixin base {
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+&__image {
+    @include base;
+}

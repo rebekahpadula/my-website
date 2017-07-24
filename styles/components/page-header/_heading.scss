@@ -1,7 +1,5 @@
 @mixin base {
-    color: #fff;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    font-size: 7vw; // maybe chagne to px if it doesnt scale right
+
 }
 
 &__heading {

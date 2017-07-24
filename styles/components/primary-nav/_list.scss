@@ -1,10 +1,10 @@
 @mixin base {
     list-style: none;
 
-    @media screen and (min-width: 768px) {
+    // @media screen and (min-width: 768px) {
         display: flex;
         justify-content: center;
-    }
+    // }
 }
 
 &__list {

@@ -1,6 +1,10 @@
 @mixin base {
-    background-color: $black;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
 
     @include escape-container;
 }
@@ -8,8 +12,6 @@
 .primary-nav {
     @include base;
 
-    @import 'content-controls';
-    @import 'content-control';
     @import 'heading';
     @import 'item';
     @import 'link';

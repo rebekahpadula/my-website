@@ -1,12 +1,13 @@
 @import 'mixins';
 @import 'vars';
 
-@import 'components/page-header/page-header';
-@import 'components/primary-nav/primary-nav';
 @import 'components/page-wrapper/page-wrapper';
-@import 'components/page-content/page-content';
+@import 'components/primary-nav/primary-nav';
+@import 'components/panel/panel';
+@import 'components/panel/inner';
+@import 'components/page-header/page-header';
 @import 'components/bio/bio';
-@import 'components/card/card';
+@import 'components/gallery/gallery';
 @import 'components/shows/shows';
 
 * {
@@ -20,6 +21,7 @@ body {
     color: #333;
     font-family: Open Sans;
     font-size: 18px;
+    position: relative;
 }
 
 ul {
@@ -29,4 +31,31 @@ ul {
 
 h1 {
     margin: 0;
+}
+
+.beginning {
+    font-size: 65px;
+    color: white;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 768px) {
+        font-size: 80px;
+    }
+}
+
+.middle {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.end {
+    margin-top: 60px;
+    font-size: 65px;
+    color: darkorange;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 768px) {
+        font-size: 95px;
+    }
 }
