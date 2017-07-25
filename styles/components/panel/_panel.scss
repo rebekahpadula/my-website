@@ -1,6 +1,6 @@
 @mixin base {
     min-height: 95vh;
-    padding: 0px 40px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +23,25 @@
 .panel-2 {
     background-color: #fefdfc;
     color: white;
-    background: linear-gradient(to bottom right, rgb(192, 36, 37), rgb(240, 203, 53))
+    background: linear-gradient(to bottom right, rgb(192, 36, 37), rgb(240, 203, 53));
 }
 
 .panel-2 .panel__inner {
-    display: flex;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 
-.panel-3{
+.panel-3 {
     background-color: #fefdfc;
     // background: linear-gradient(to bottom right, rgb(192, 36, 37), #4916b6);
+}
+
+.panel-3 .panel__inner {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        width: 100%;
+    }
 }
 
 .panel-4 {

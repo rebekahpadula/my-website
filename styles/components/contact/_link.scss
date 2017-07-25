@@ -1,8 +1,7 @@
 @mixin base {
-    margin-top: 8px;
+
 }
 
-
-&__local {
+&__link {
     @include base;
 }

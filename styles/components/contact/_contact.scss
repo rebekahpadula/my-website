@@ -1,0 +1,12 @@
+@mixin base {
+    flex-basis: 50%;
+    align-self: center;
+}
+
+.contact {
+    @include base;
+
+    @import 'item';
+    @import 'icon';
+    @import 'link';
+}

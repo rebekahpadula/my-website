@@ -9,6 +9,7 @@
 @import 'components/bio/bio';
 @import 'components/gallery/gallery';
 @import 'components/shows/shows';
+@import 'components/contact/contact';
 
 * {
     box-sizing: border-box;
@@ -45,13 +46,23 @@ h1 {
 }
 
 .middle {
-    font-size: 30px;
+    font-size: 50px;
     color: $orange;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-bottom: 35px;
+
+    @media screen and (min-width: 543px) {
+        display: inline;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 60px;
+    }
 }
 
 .end {
-    margin-top: 60px;
+    margin-top: 45;
     font-size: 65px;
     color: white;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
