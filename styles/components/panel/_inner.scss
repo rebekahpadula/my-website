@@ -1,6 +1,10 @@
 @mixin base {
     max-width: 1000px;
     // padding: 40px;
+
+    &:last-child {
+        margin: 0 auto;
+    }
 }
 
 &__panel {
