@@ -4,6 +4,12 @@
 
 // require("./toggle");
         
-const gallery = document.querySelector('.gallery');
-
-gallery.slick();
+$('.gallery__container').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    dots: true,
+    // appendDots: $('.carousel'),
+    mobileFirst: true,
+    swipeToSlide: true
+});
