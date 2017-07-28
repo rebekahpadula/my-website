@@ -2,4 +2,8 @@
 // Include scripts using Browserify by doing:
 // var $ = require("jquery");
 
-require("./toggle");
+// require("./toggle");
+        
+const gallery = document.querySelector('.gallery');
+
+gallery.slick();
