@@ -26,9 +26,10 @@
 }
 
 .panel-2 .panel__inner {
-    @media screen and (min-width: 768px) {
+    width: 100%;
+    
+    @media screen and (min-width: 1050px) {
         display: flex;
-        width: 100%;
     }
 }
 
