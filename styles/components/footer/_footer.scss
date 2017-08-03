@@ -1,0 +1,9 @@
+@mixin base {
+    background-color: $orange;
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.footer {
+    @include base;
+}

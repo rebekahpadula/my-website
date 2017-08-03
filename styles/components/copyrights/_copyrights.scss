@@ -1,0 +1,9 @@
+@mixin base {
+    list-style: none;
+}
+
+.copyrights {
+    @include base;
+
+    @import 'copyright';
+}
