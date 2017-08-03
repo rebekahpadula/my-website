@@ -25,10 +25,6 @@
         background-size: cover;
         background-position: 25% 10%;
     }
-
-    & .panel__inner {
-        margin-top: 100px;
-    }
 }
 
 .panel-2 {
@@ -47,7 +43,6 @@
 
 .panel-3 {
     background-color: #fefdfc;
-    // background: linear-gradient(to bottom right, rgb(192, 36, 37), #4916b6);
 }
 
 .panel-3 .panel__inner {
