@@ -17,13 +17,64 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    min-height: 50vh;
-    background-position: center 20%;
+    min-height: 35vh;
+    background-position: center 10%;
+
+    @media screen and (min-width: 450px) {
+        min-height: 38vh;
+    }
+
+    @media screen and (min-width: 500px) {
+        min-height: 42vh;
+    }
+
+    @media screen and (min-width: 550px) {
+        min-height: 45vh;
+    }
+
+    @media screen and (min-width: 600px) {
+        min-height: 48vh;
+    }
+
+    @media screen and (min-width: 650px) {
+        min-height: 52vh;
+    }
+
+    @media screen and (min-width: 700px) {
+        min-height: 55.5vh;
+    }
 
     @media screen and (min-width: 768px) {
+        min-height: 59vh;
+    }
+
+    @media screen and (min-width: 800px) {
+        min-height: 61vh;
+    }
+
+    @media screen and (min-width: 900px) {
+        min-height: 65vh;
+    }
+
+    @media screen and (min-width: 1000px) {
+        min-height: 74.5vh;
+    }
+
+    @media screen and (min-width: 1100px) {
+        min-height: 80vh;
+    }
+
+    @media screen and (min-width: 1200px) {
+        min-height: 86vh;
+    }
+
+    @media screen and (min-width: 1300px) {
+        min-height: 90vh;
+    }
+
+    @media screen and (min-width: 1400px) {
         min-height: 100vh;
         background-size: cover;
-        background-position: 25% 10%;
     }
 }
 
