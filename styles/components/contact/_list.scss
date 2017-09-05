@@ -1,6 +1,12 @@
 @mixin base {
     list-style: none;
     padding: 0;
+
+    @media screen and (min-width: 768px) {
+        width: 100px;
+        margin-left: 50%;
+        display: inline-block;
+    }
 }
 
 &__list {
