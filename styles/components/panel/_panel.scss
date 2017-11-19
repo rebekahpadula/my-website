@@ -98,9 +98,10 @@
 }
 
 .panel-3 .panel__inner {
+    width: 100%;
+    
     @media screen and (min-width: 768px) {
         display: flex;
-        width: 100%;
     }
 }
 
