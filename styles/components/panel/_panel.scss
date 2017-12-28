@@ -82,7 +82,7 @@
 .panel-2 {
     background-color: #fefdfc;
     color: white;
-    background: linear-gradient(to bottom right, rgb(192, 36, 37), rgb(240, 203, 53));
+    background: linear-gradient(to bottom right, rgb(240, 203, 53) 5%, rgb(192, 36, 37) 70%, rgb(86, 20, 176) 99%);
 }
 
 .panel-2 .panel__inner {
@@ -94,13 +94,14 @@
 }
 
 .panel-3 {
-    background-color: #fefdfc;
+
 }
 
 .panel-3 .panel__inner {
     @media screen and (min-width: 768px) {
         display: flex;
         width: 100%;
+        align-items: center;
     }
 }
 

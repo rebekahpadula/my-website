@@ -1,17 +1,8 @@
 @mixin base {
-    max-height: 100px;
-    height: 100%;
-    width: 100%;
+    height: 60px;
+    width: 60px;
 }
 
 &__icon {
     @include base;
-
-    &:hover {
-        fill: red !important;
-    }
-}
-
-.contact__icon--instagram {
-    max-height: 125px;
 }

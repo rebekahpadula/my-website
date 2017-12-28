@@ -5,3 +5,7 @@
 &__link {
     @include base;
 }
+
+.contact__link + .contact__link {
+    margin-left: 20px;
+}
