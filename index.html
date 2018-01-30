@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="icon" href="assets/sun-icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua|Open+Sans:400,500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
     <link rel="stylesheet" href="styles/site.min.css">
 </head>
 <body>
-
     <div class="page-wrapper">
-
         <nav class="primary-nav" role="navigation" aria-label="Primary Navigation">
             <h1 class="primary-nav__heading">Primary Navigation</h1>
             <ul class="primary-nav__list" data-expand-content="false">
@@ -21,22 +19,17 @@
                 <li class="primary-nav__item"><a class="primary-nav__link" href="#shows" aria-label="" data-link-active="false">shows</a></li>
             </ul>
         </nav>
-        
         <div class="panel panel-1 heading" id="home">
             <div class="panel__inner">
-                <header class="page-header">
-                    <!-- <h1><div class="end">Under The Sun</div></h1> -->
-                     <!-- <h1 class="page-header__heading"><span class="beginning">Hello, </span><span class="middle">we are</span><div class="end">Under The Sun</div></h1>  -->
-                </header>
+                <img class="arrow" src="assets/down-arrow.svg"alt="continue scrolling down"/>
+                <header class="page-header"></header>
             </div>
         </div>
-
         <div class="panel panel-2 heading" id="about">
             <div class="panel__inner">
                  <section class="bio">
                     <h1 class="bio__heading">biography</h1>
                     <p>Under The Sun is a cover band from Columbia, SC. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dignissimos inventore, vel sint tempore optio blanditiis illo omnis itaque dolore. Quam possimus optio expedita nobis non officia velit! Delectus, sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis esse eaque, rem quam repellat consectetur officia ratione voluptates, reprehenderit consequuntur fuga ab, iusto omnis excepturi. Cumque quas, fugiat ducimus facere.</p>
-
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate molestiae, eos excepturi. Nostrum debitis distinctio eligendi laudantium omnis, sapiente laboriosam quidem voluptatibus officiis cupiditate, deleniti blanditiis. Iure, odit, eos.</p>
                 </section> 
                  <section class="gallery">
@@ -48,38 +41,29 @@
                 </section> 
             </div>
         </div>
-
         <div class="panel panel-3 heading" id="shows">
             <div class="panel__inner">
                 <section class="shows">
                     <h1 class="shows__heading">upcoming shows</h1>
                     <ul class="shows__list">
-                        <li class="shows__item"><p class="shows__date">Friday August 18st</p><p class="shows__local">Wild Wings Sandhills</p></li>
-                        <li class="shows__item"><p class="shows__date">Saturday August 26th</p><p class="shows__local">Wild Wings Vista</p></li>
-                        <li class="shows__item"><p class="shows__date">Friday September 8th</p><p class="shows__local">Wild Wings Augusta</p></li>
+                        <li class="shows__item"><p class="shows__date">Saturday January 27th</p><p class="shows__local"><a class="shows__local-link" href="https://www.facebook.com/hwy378lakemurray/">Hwy 378 Bar and Grill</a></p></li>
+                        <li class="shows__item"><p class="shows__date">Saturday April 7th</p><p class="shows__local"><a class="shows__local-link" href="https://www.facebook.com/hwy378lakemurray/">Hwy 378 Bar and Grill</a></p></li>
+                        <li class="shows__item"><p class="shows__date">Saturday May 26th</p><p class="shows__local"><a class="shows__local-link" href="https://www.facebook.com/hwy378lakemurray/">Hwy 378 Bar and Grill</a></p></li>
                     </ul>
                 </section>
                 <section class="contact">
-                    <ul class="contact__list">
-                        <li class="contact__item"><a href="mailto:bandunderthesunsc@gmail.com" target="_top" class="contact__link"><img class="contact__icon contact__icon--envelope" src="assets/mail.svg"></a></li>
-                        <li class="contact__item"><a href="https://www.facebook.com/BandUnderTheSun/" class="contact__link"><img class="contact__icon contact__icon--facebook" src="assets/facebook.svg"/></a></li>
-                        <!-- <li class="contact__item"><a href="" class="contact__link"><img class="contact__icon contact__icon--instagram" src="assets/instagram-logo.svg"/></a></li> -->
-                    </ul>
+                    <h2 class="contact__heading">Like, follow, subscribe, or book us for your next event!</h2>
+                    <a class="contact__link" href="https://www.facebook.com/BandUnderTheSun/"><img class="contact__icon" src="assets/default_facebook.png" alt="facebook icon"/></a>
+                    <a class="contact__link" href=""><img class="contact__icon" src="assets/default_instagram.png" alt="instagram icon"/></a>
+                    <a class="contact__link" href=""><img class="contact__icon" src="assets/default_youtube.png" alt="youtube icon"/></a>
+                    <a class="contact__link" href=""><img class="contact__icon" src="assets/default_email.png" alt="email icon"/></a>
                 </section>
-              </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="footer__container">
-                <ul class="copyrights">
-                    <li class="copyrights__copyright"><small>Facebook icon made by <a href="https://flaticon.com/authors/smashicons" >Shashicons</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> and licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></small></li>
-                    <li class="copyrights__copyright"><small>Envelope icon made by <a href="https://www.flaticon.com/authors/iconnice">Iconnice</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> and licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></small></li>
-                </ul>
-            </div>
-        </footer>  
+    </div>
+    <footer class="footer"></footer>
 
-
-
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a11c904dc673731"></script> 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script>

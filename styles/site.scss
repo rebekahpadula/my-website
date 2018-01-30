@@ -11,7 +11,6 @@
 @import 'components/shows/shows';
 @import 'components/contact/contact';
 @import 'components/footer/footer';
-@import 'components/copyrights/copyrights';
 
 * {
     box-sizing: border-box;
@@ -75,5 +74,33 @@ a {
 
     @media screen and (min-width: 768px) {
         font-size: 95px;
+    }
+}
+
+
+@keyframes bounce {
+    0% {
+        top: 180px;
+    }
+
+    50% {
+        top: 220px;
+    }
+
+    100% {
+        top: 180px;
+    }
+}
+
+.arrow {
+    display: none;
+    position: absolute;
+    top: 180px;
+    height: 60px;
+    width: 60px;
+    animation: bounce 2s infinite;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
     }
 }

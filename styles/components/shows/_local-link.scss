@@ -1,0 +1,8 @@
+@mixin base {
+    color: #b52a1e;
+    font-weight: bold;
+}
+
+&__local-link {
+    @include base;
+}
