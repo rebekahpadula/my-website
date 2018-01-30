@@ -17,64 +17,59 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    min-height: 35vh;
-    background-position: center;
+    min-height: 24vh;
+    background-position: top;
 
     @media screen and (min-width: 450px) {
-        min-height: 38vh;
+        min-height: 27vh;
     }
 
     @media screen and (min-width: 500px) {
-        min-height: 42vh;
+        min-height: 30vh;
     }
 
     @media screen and (min-width: 550px) {
-        min-height: 45vh;
+        min-height: 33vh;
     }
 
     @media screen and (min-width: 600px) {
-        min-height: 48vh;
+        min-height: 36vh;
     }
 
     @media screen and (min-width: 650px) {
-        min-height: 52vh;
+        min-height: 40vh;
     }
 
     @media screen and (min-width: 700px) {
-        min-height: 55.5vh;
-    }
-
-    @media screen and (min-width: 768px) {
-        min-height: 59vh;
+        min-height: 43vh;
     }
 
     @media screen and (min-width: 800px) {
-        min-height: 61vh;
+        min-height: 49vh;
     }
 
     @media screen and (min-width: 900px) {
-        min-height: 65vh;
+        min-height: 55vh;
     }
 
     @media screen and (min-width: 1000px) {
-        min-height: 74.5vh;
+        min-height: 60vh;
     }
 
-    @media screen and (min-width: 1100px) {
-        min-height: 80vh;
+    @media screen and (min-width: 1045px) {
+        min-height: 65vh;
     }
 
     @media screen and (min-width: 1200px) {
-        min-height: 86vh;
+        min-height: 74vh;
     }
 
     @media screen and (min-width: 1300px) {
-        min-height: 90vh;
-        background-size: cover;
+        min-height: 80vh;
     }
 
-    @media screen and (min-width: 1400px) {
-        min-height: 100vh;
+    @media screen and (min-width: 1450px) {
+        min-height: 89vh;
     }
 }
 
